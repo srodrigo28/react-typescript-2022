@@ -5,6 +5,6 @@ type Props = {
 
 export const Botao = ( {text, cor}: Props ) =>{
     return(
-        <button className="btn ${cor}">{text}</button>
+        <button className='btn btn-outline-primary'>{text}</button>
     )
 }

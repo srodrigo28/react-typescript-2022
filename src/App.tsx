@@ -1,13 +1,15 @@
-import React from 'react'
-import { Form } from './Form';
-import { Titulo } from './Titulo';
+//import { useState } from 'react'
+import { Botao } from './components/basicos/Botao';
+import { FormEvent } from './components/FormEvent';
+import { Titulo } from './components/Titulo';
+import { FormDesafio } from './tools/FormDesafio';
 
 const App = () => {
+  
   return(
     <div className="container mt-5">
         <Titulo />
-        <Form />
-        <button className='form-control btn btn-primary mt-3'>Entrar</button>
+        <Botao  text="Cadastrar" cor="primary"/>
     </div>
   )
 }
